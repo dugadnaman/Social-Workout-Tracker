@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Checkin",
+    "slug": "checkin-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.checkin.app"
+    },
+    "android": {
+      "package": "com.checkin.app",
+      "permissions": [
+        "VIBRATE"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ac9e0a55-6c1f-434f-a96d-fb6fcb1441d1"
+      }
+    }
+  }
+}

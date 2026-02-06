@@ -1,0 +1,47 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+.npm
+.yarn/cache
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+
+# React Native
+android/
+ios/
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.pbxuser
+*.perspective
+*.perspectivev3
+xcuserdata/
+
+# Gradle
+gradle/
+.gradle
+local.properties
+*.iml
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vercel
+.env*.local

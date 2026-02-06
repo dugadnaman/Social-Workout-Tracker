@@ -1,0 +1,35 @@
+Starting project at c:\Users\dell\Desktop\Checkin\checkin-app
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY EXPO_PUBLIC_DEV_BYPASS_AUTH
+Starting Metro Bundler
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY EXPO_PUBLIC_DEV_BYPASS_AUTH
+Starting Webpack on port 19006 in development mode.
+(node:10024) [DEP_WEBPACK_DEV_SERVER_CONSTRUCTOR] DeprecationWarning: Using 'compiler' as the first argument is deprecated. Please use 'options' as the first argument and 'compiler' as the second argument.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:10024) [DEP_WEBPACK_DEV_SERVER_LISTEN] DeprecationWarning: 'listen' is deprecated. Please use the async 'start' or 'startCallback' method.
+The following packages should be updated for best compatibility with the installed expo version:
+  @react-native-async-storage/async-storage@1.17.11 - expected version: 1.23.1
+  expo-haptics@12.8.1 - expected version: ~13.0.1
+  react-native@0.73.0 - expected version: 0.74.5
+  react-native-gesture-handler@2.14.1 - expected version: ~2.16.1
+  react-native-safe-area-context@4.7.4 - expected version: 4.10.5
+  react-native-screens@3.27.0 - expected version: 3.31.1
+  @expo/webpack-config@18.1.4 - expected version: ~19.0.1
+  @types/react@18.3.27 - expected version: ~18.2.79
+  babel-preset-expo@9.9.0 - expected version: ~11.0.0
+  typescript@5.9.3 - expected version: ~5.3.3
+Your project may not work correctly until you install the expected versions of the packages.
+Waiting on http://localhost:8082
+Logs for your project will appear below.
+[1m[31mERROR[39m[22m in [1m./node_modules/expo-modules-core/build/uuid/uuid.web.js:9:8[39m[22m
+Module not found: Can't resolve 'crypto'
+[0m [90m  7 |[39m   [36mconst[39m cryptoObject [33m=[39m
+ [90m  8 |[39m     [36mtypeof[39m crypto [33m===[39m [32m'undefined'[39m [33m||[39m [36mtypeof[39m crypto[33m.[39mrandomUUID [33m===[39m [32m'undefined'[39m
+[31m[1m>[22m[39m[90m  9 |[39m       [33m?[39m require([32m'crypto'[39m)
+ [90m    |[39m        [31m[1m^[22m[39m
+ [90m 10 |[39m       [33m:[39m crypto[33m;[39m
+ [90m 11 |[39m
+ [90m 12 |[39m   [36mif[39m ([33m![39mcryptoObject[33m?[39m[33m.[39mrandomUUID) {[0m
+
+[1mweb[39m[22m compiled with [1m[31m1 error[39m[22m

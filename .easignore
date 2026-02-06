@@ -1,0 +1,27 @@
+# EAS Build ignore file
+
+# Environment files (use EAS secrets instead)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+expo.log
+expo_test.log
+
+# Expo cache
+.expo/
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+
+# Test files
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
